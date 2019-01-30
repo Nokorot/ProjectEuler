@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/noko/Dropbox/Workspace/ProjectEuler/Java/.metadata/.plugins/org.eclipse.jdt.core
+1885155460.index
+4238504653.index
+1275180592.index

@@ -1,0 +1,75 @@
+package noko;
+
+import static noko.Prints.print;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RR {
+	
+	public RR(String[] args) {
+		int[] res = entry(22, new int[] {3, 10});
+		print(res);
+	}
+	
+	static List<Integer> count_coins(List<Integer> coinDenominations, int monetaryValue) {
+        
+        List<List<Integer>> matrix = new ArrayList<List<Integer>>();
+        
+        matrix.add(null);
+        
+        //Fill the matrix
+        for (int i = 1; i <= monetaryValue; i++) {
+            //compare with denom
+            matrix.add(null);
+            for (Integer denom : coinDenominations) {
+                if (i == denom) {
+                    List<Integer> denom_eq = new ArrayList<Integer>();
+                    denom_eq.add(i);
+                    matrix.set(i, denom_eq);
+                } else {
+                    //check with previous
+                    for (int j = 1; j <= i / 2 ; j++) {
+                        if (matrix.get(j) != null && matrix.get(i - j) != null) {
+                            List<Integer> prev_comp = new ArrayList<Integer>();
+                            prev_comp.addAll(matrix.get(j));
+                            prev_comp.addAll(matrix.get(i - j));
+                            if (matrix.get(i) != null) {
+                                if (prev_comp.size() < matrix.get(i).size()) {
+                                    matrix.set(i, prev_comp);
+                                } 
+                            } else {
+                                matrix.set(i, prev_comp);
+                            }
+                        }
+                    }
+                }
+            }     
+        }
+        
+        return matrix.get(monetaryValue);
+    }
+	
+	private boolean fun(int[] vals, int[] res, int x, int k) {
+		if (x == 0)
+			return true;
+		if (k < 0)
+			return false;
+		if (x < vals[k])
+			return fun(vals, res, x, k-1);
+		if (fun(vals, res, x - vals[k], k))
+			res[k]++;
+		else 
+			return fun(vals, res, x, k-1);
+		return true;
+	}
+	
+	public int[] entry(int x, int[] vals) {
+		
+		int[] res = new int[vals.length];
+		fun(vals, res, x, vals.length-1);
+		return res;
+	}
+	
+	
+}

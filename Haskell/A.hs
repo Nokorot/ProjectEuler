@@ -28,8 +28,8 @@ p3 = maxPrime 600851475143 1
 
 
 -- Problem 4
-palindromic x = let s = (show x)
-                    in s == reverse s
+palindromic x = let s = (show x) 
+	in s == reverse s
 
 p4 = maximum (filter palindromic [x*y | x <- [999,998..100], y <- [999,998..100]])
 

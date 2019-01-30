@@ -1,0 +1,312 @@
+!SESSION 2019-01-09 20:07:38.356 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/noko/Dropbox/Workspace/ProjectEuler/Java -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2019-01-09 21:17:42.472
+!MESSAGE Failed to resolve selection in ‘=PE/src<noko{P39.java’ at offset 140.
+!STACK 1
+Java Model Exception: Java Model Status [Index out of bounds]
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:163)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:390)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:383)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:138)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:299)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+!SUBENTRY 1 org.eclipse.jdt.core 4 980 2019-01-09 21:17:42.476
+!MESSAGE Index out of bounds
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2019-01-09 21:20:00.282
+!MESSAGE Full project indexing required:
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY org.eclipse.ui 4 0 2019-01-09 22:38:33.417
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:506)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:443)
+	at org.eclipse.swt.widgets.Control.redraw(Control.java:4258)
+	at org.eclipse.swt.widgets.Link.gtk_event_after(Link.java:417)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1976)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6524)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6014)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4118)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1414)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1596)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SESSION 2019-01-13 17:47:43.150 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2019-01-13 19:18:50.106
+!MESSAGE Full project indexing required:
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+!SESSION 2019-01-19 20:03:04.621 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2019-01-19 20:50:51.395
+!MESSAGE Full project indexing required:
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-9-oracle/lib/jrt-fs.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)

@@ -1,0 +1,149 @@
+package noko;
+
+import static noko.Primes.primes;
+
+import java.util.ArrayList;
+
+public class Utils {
+
+  public static boolean isPrime(int n) {
+		// TODO: ordered search;
+		for(int p : primes()) {
+			if (p > n)
+				return false;
+			if (p == n)
+				return true;
+		}
+		return false;
+	}
+
+	public static int[][] facotors(int n) {
+		ArrayList<int[]> res = new ArrayList<int[]>();
+
+		for(int p : primes()) {
+			if (p > n)
+				break;
+			if(n % p == 0) {
+				res.add(new int[] {p, 1});
+				n /= p;
+			}
+			while(n % p == 0) {
+				res.get(res.size()-1)[1] += 1;
+				n /= p;
+			}
+		}
+
+		return res.toArray(new int[res.size()][2]);
+	}
+
+	public static int[] divisors(int[][] factors) {
+		int numDivs = 1;
+		for (int i=0; i<factors.length; i++)
+			numDivs *= factors[i][1]+1;
+		int[] res = new int[numDivs];
+
+		int[] x = new int[factors.length];
+	    for(int i=0; i<numDivs; i++) {
+	    	int p=1;
+	    	for(int j=0;j<factors.length;j++)
+	    		p *= Math.pow(factors[j][0], x[j]);
+	    	res[i] = p;
+
+	        for(int j=0; j<factors.length;j++) {
+	        	if (x[j] == factors[j][1])
+	        		x[j] = 0;
+	            else {
+	                x[j] += 1;
+	                break;
+	            }
+	        }
+	    }
+		return res;
+	}
+
+	public static int[] divisors(int n) {
+		return divisors(facotors(n));
+	}
+	
+	public static int gcd(int a, int b) {
+		while (true) {
+	    	if (a == 0) 
+	          return b; 
+	        if (b == 0) 
+	          return a; 
+	        if (a == b) 
+	            return a; 
+	       
+	        if (a > b) 
+	        	a = a-(b*(a/b));
+	        else
+	        	b = b-(a*(b/a));
+		}
+    }
+	
+	public static int sum(int[] nums, int a, int l) {
+		int s = 0;
+		for(int i=a; i<a+l; i++)
+			s += nums[i];
+		return s;
+	}
+	
+	public static int sum(int[] nums) {
+		return sum(nums, 0, nums.length);
+	}
+	
+	public static int prod(int[] nums, int a, int l) {
+		int p = 1;
+		for(int i=a; i<a+l; i++)
+			p *= nums[i];
+		return p;
+	}
+
+	public static int prod(int[] nums) {
+		return prod(nums, 0, nums.length);
+	}
+	
+	public static int pow(int n, int e) {
+		int p = 1;
+		for (int i=0;i<e;i++)
+			p*=n;
+		return p;
+	}
+	
+	public static long pow(long n, int e) {
+		long p = 1;
+		for (int i=0;i<e;i++)
+			p*=n;
+		return p;
+	}
+	
+	public static int modpow(int n, int e, int m) {
+		int p = 1;
+		for (int i=0;i<e;i++)
+			p = (n*p)%m;
+		return p;
+	}
+	
+	public static int abs(int n) {
+		if(n<0)
+			return -n;
+		return n; 
+	}
+	
+	public static int min(int... ints) {
+		int m = ints[0];
+		for(int i : ints)
+			if (m > i)
+				m = i;
+		return m;
+	}
+	
+	public static int max(int... ints) {
+		int m = ints[0];
+		for(int i : ints)
+			if (m < i)
+				m = i;
+		return m;
+	}
+	
+}

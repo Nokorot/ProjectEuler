@@ -1,0 +1,59 @@
+package noko;
+
+import static noko.Prints.print;
+import static noko.Utils.pow;
+
+public class P62 {
+	
+	boolean arePermutations(char[] a, char[] b) {
+		boolean[] used = new boolean[b.length]; 
+		if (a.length != b.length)
+			return false;
+		loopA:
+		for (char c : a) {
+			for(int i=0;i<b.length;i++)
+				if (!used[i] && b[i] == c) {
+					used[i] = true;
+					continue loopA;
+				}
+			return false;
+		}
+		return true;
+	}
+
+	public P62(String[] args) {
+		int N = 1000;
+		int ll = String.valueOf(pow(N, 3)).length();
+		char[][] cubesS = new char[N][];
+		int[] lengths = new int[ll];
+		int l = 0;
+		for(int i=0; i<N; i++) {
+			cubesS[i] = String.valueOf(pow(i, 3)).toCharArray();
+			if (cubesS[i].length > l) {
+				l = cubesS[i].length;
+				lengths[l] = i;
+			}
+		}
+
+		print(lengths);
+		
+		loopA:
+		for (int i=1;i<lengths.length-1; i++){
+			for (int j=lengths[i]; k<lengths[i+1]; j++) {
+				for (int k=j+1; k<lengths[i+1]; k++) {
+					print(k);
+					if (arePermutations(cubesS[j], 
+							cubesS[k])) {
+						print(cubesS[j], cubesS[k]);
+						break loopA;
+					}
+					
+				}
+			}
+		}
+		
+		for(int i=0;i<10;i++)
+			print(cubesS[i]);
+	}
+	
+}

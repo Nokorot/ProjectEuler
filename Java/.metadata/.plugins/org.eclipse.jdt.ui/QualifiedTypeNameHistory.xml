@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="noko.P39"/>
+    <fullyQualifiedTypeName name="noko.ComplexInt"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="javafx.collections.transformation.SortedList"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.internal.ir.LiteralNode.ArrayLiteralNode"/>
+    <fullyQualifiedTypeName name="noko.RadixsortKey"/>
+    <fullyQualifiedTypeName name="noko.Sorting"/>
+    <fullyQualifiedTypeName name="noko.Triple"/>
+    <fullyQualifiedTypeName name="noko.Primes"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="noko.Prints"/>
+    <fullyQualifiedTypeName name="sun.font.StrikeCache"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="noko.Utils"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>
