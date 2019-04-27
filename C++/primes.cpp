@@ -2,6 +2,13 @@
 #include <string>
 #include <fstream>
 
+
+/* TODO
+typedef struct {
+  int* primes;
+  int size;
+} Primes;*/
+
 static const std::string primesFile = "../primes.dat";
 
 static int bytes2int(char* data, int i) {
