@@ -8,10 +8,19 @@ typedef struct {
 } factor;
 
 // Function decleration
+long fast_atoi( const char* str);
 factor * factors(ulong num, int* size);
 int ndivs(int num);
 long npow(int a, int e);
 void free_utils();
+
+long fast_atoi( const char* str )
+{
+    long val = 0;
+    while( *str )
+        val = val*10 + (*str++ - '0');
+    return val;
+}
 
 // Static members
 factor * factors_data = 0;
